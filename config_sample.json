@@ -1,0 +1,7 @@
+{
+  "api_key": "여기에_본인의_기상청_인증키를_붙여넣으세요",
+  "dong_code": "원하는 행정코드를 찾아서 입력해주세요",
+  "target_date": "알고싶은 날짜를 입력해주세요(yyyymmdd)",
+  "sheet_name": "날씨기록",
+  "google_auth_file": "본인의_구글_인증파일_이름.json"
+}
