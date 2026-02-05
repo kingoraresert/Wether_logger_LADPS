@@ -1,7 +1,16 @@
-# Weather_logger_LDAPS
----
-
 # 🌤️ 기상청 LDAPS 예보 자동 기록기 (Weather Logger)
+<div align="center">
+
+  <img src="https://img.shields.io/badge/Python-3.9-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
+
+  <img src="https://img.shields.io/badge/Gspread-Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white" alt="Gspread">
+
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status">
+
+</div>
+<br/>
 
 기상청 국지예보모델(LDAPS) 데이터를 활용하여 **특정 목표 날짜(D-Day)** 의 날씨 예보가 시간 흐름에 따라 어떻게 변하는지 추적하고, **Google Sheets**에 자동으로 기록하는 파이썬 봇입니다.
 
