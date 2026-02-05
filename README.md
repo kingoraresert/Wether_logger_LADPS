@@ -1,8 +1,4 @@
 # Wether_logger_LADPS
-
-GitHub 리포지토리의 대문이 될 **`README.md`** 파일을 작성해 드립니다.
-아래 내용을 그대로 복사해서 `README.md`라는 파일명으로 저장하시면, 아주 전문가스러운 프로젝트 설명서가 완성됩니다.
-
 ---
 
 # 🌤️ 기상청 LDAPS 예보 자동 기록기 (Weather Logger)
@@ -57,6 +53,17 @@ pip install -r requirements.txt
 * `target_date`: 예보를 추적하고 싶은 날짜 (YYYYMMDD)
 * `google_auth_file`: 구글 서비스 계정 인증 파일명
 
+## 💡 Tip: 행정구역코드(dong_code) 찾는 법
+dong_code는 기상청에서 사용하는 고유한 지역 번호입니다.
+
+**[공공데이터포털 기상청 API 페이지]**에 접속합니다.
+
+참고문서/상세설명 란에 있는 '행정구역코드(엑셀 파일)' 를 다운로드합니다.
+
+파일을 열어 Ctrl + F로 본인이 사는 동네(예: 영산동, 역삼동 등)를 검색합니다.
+
+해당하는 10자리 코드를 복사하여 config.json에 붙여넣으세요.
+
 ### 3. 구글 시트 공유 설정
 
 1. 구글 스프레드시트를 생성하고 이름을 `config.json`에 적은 `sheet_name`과 똑같이 맞춥니다.
@@ -108,10 +115,3 @@ weather-logger/
 This project is licensed under the MIT License.
 
 ---
-
-### 💡 팁: 마크다운 파일 만드는 법
-
-1. 메모장을 켭니다.
-2. 위 내용을 복사해서 붙여넣습니다.
-3. 저장할 때 파일 이름을 **`README.md`** 라고 적습니다. (파일 형식을 '모든 파일'로 바꿔야 `.txt`가 안 붙습니다.)
-4. GitHub에 드래그해서 올리시면 됩니다!
