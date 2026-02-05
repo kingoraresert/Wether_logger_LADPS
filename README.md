@@ -7,8 +7,6 @@
 
   <img src="https://img.shields.io/badge/Gspread-Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white" alt="Gspread">
 
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status">
-
 </div>
 <br/>
 
