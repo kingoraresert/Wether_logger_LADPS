@@ -1,4 +1,4 @@
-# Wether_logger_LADPS
+# Weather_logger_LADPS
 ---
 
 # 🌤️ 기상청 LDAPS 예보 자동 기록기 (Weather Logger)
@@ -158,7 +158,7 @@ python weather_gsheet.py
 1. `run.bat` 파일을 생성하여 아래 내용을 적습니다.
 ```batch
 @echo off
-python "C:\경로\Wether_logger_LADPS\weather_gsheet.py"
+python "C:\경로\Weather_logger_LADPS\weather_gsheet.py"
 
 ```
 
@@ -170,7 +170,7 @@ python "C:\경로\Wether_logger_LADPS\weather_gsheet.py"
 ## 📂 파일 구조
 
 ```
-Wether_logger_LADPS/
+Weather_logger_LADPS/
 ├── weather_gsheet.py    # 메인 실행 코드
 ├── config.json          # 사용자 설정 (Git 업로드 X)
 ├── config_sample.json   # 설정 예시 파일
